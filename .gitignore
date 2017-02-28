@@ -1,0 +1,34 @@
+# Stuff that pops up locally for me - @jeremyfelt
+*.sublime*
+.DS_Store
+.idea
+
+# Because this really is a working directory, ignore vagrant's files
+ee-hosts
+/.vagrant
+
+# This is a file intended for hooking in a custom Vagrant configuration on up
+/Customfile
+/vvv-custom.yml
+
+# And no need to share individual SQL files with each other
+*.sql
+*.sql.gz
+
+# WP
+uploads/
+upgrade/
+themes/
+plugins/
+
+# Public directories
+/www/22222/cert/
+/www/22222/logs/
+/www/22222/htdocs/cache/
+/www/22222/htdocs/db/
+/www/22222/htdocs/fpm/
+/www/22222/htdocs/php/
+/www/22222/htdocs/sr/
+/www/html/
+/www/phpcs/
+/www/*.dev
